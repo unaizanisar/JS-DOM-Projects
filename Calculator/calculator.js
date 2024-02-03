@@ -37,6 +37,7 @@ modeSwitchButton.addEventListener("click", () => {
         buttons[8].value = "7";
         buttons[9].value = "8";
         buttons[10].value = "9";
+        buttons[12].value = "0";
         // Add more buttons as needed
     }
 });
