@@ -1,0 +1,38 @@
+{
+    "student-data":[
+        {"id": 1, "maths": 90, "physics": 85, "english": 75, "computer-science": 95, "geography": 80, "full-name": "John Doe", "father-name": "Doe Sr.", "imageurl": "https://example.com/image1.jpg", "date": 1644010800000},
+        {"id": 2, "maths": 85, "physics": 92, "english": 80, "computer-science": 88, "geography": 78, "full-name": "Jane Smith", "father-name": "Smith Sr.", "imageurl": "https://example.com/image2.jpg", "date": 1644010900000},
+        {"id": 3, "maths": 78, "physics": 87, "english": 85, "computer-science": 90, "geography": 82, "full-name": "Robert Brown", "father-name": "Brown Sr.", "imageurl": "https://example.com/image3.jpg", "date": 1644011000000},
+        {"id": 4, "maths": 92, "physics": 80, "english": 78, "computer-science": 85, "geography": 88, "full-name": "Emily White", "father-name": "White Sr.", "imageurl": "https://example.com/image4.jpg", "date": 1644011100000},
+        {"id": 5, "maths": 86, "physics": 88, "english": 82, "computer-science": 92, "geography": 75, "full-name": "Michael Johnson", "father-name": "Johnson Sr.", "imageurl": "https://example.com/image5.jpg", "date": 1644011200000},
+        {"id": 6, "maths": 80, "physics": 78, "english": 90, "computer-science": 85, "geography": 82, "full-name": "Sarah Davis", "father-name": "Davis Sr.", "imageurl": "https://example.com/image6.jpg", "date": 1644011300000},
+        {"id": 7, "maths": 75, "physics": 85, "english": 92, "computer-science": 80, "geography": 88, "full-name": "Christopher Wilson", "father-name": "Wilson Sr.", "imageurl": "https://example.com/image7.jpg", "date": 1644011400000},
+        {"id": 8, "maths": 88, "physics": 82, "english": 78, "computer-science": 85, "geography": 90, "full-name": "Olivia Thomas", "father-name": "Thomas Sr.", "imageurl": "https://example.com/image8.jpg", "date": 1644011500000},
+        {"id": 9, "maths": 82, "physics": 90, "english": 85, "computer-science": 78, "geography": 92, "full-name": "Daniel Miller", "father-name": "Miller Sr.", "imageurl": "https://example.com/image9.jpg", "date": 1644011600000},
+        {"id": 10, "maths": 78, "physics": 85, "english": 92, "computer-science": 80, "geography": 88, "full-name": "Sophia Brown", "father-name": "Brown Sr.", "imageurl": "https://example.com/image10.jpg", "date": 1644011700000},
+        {"id": 11, "maths": 85, "physics": 78, "english": 80, "computer-science": 88, "geography": 92, "full-name": "Ethan Wilson", "father-name": "Wilson Sr.", "imageurl": "https://example.com/image11.jpg", "date": 1644011800000},
+        {"id": 12, "maths": 90, "physics": 92, "english": 85, "computer-science": 78, "geography": 80, "full-name": "Emma Davis", "father-name": "Davis Sr.", "imageurl": "https://example.com/image12.jpg", "date": 1644011900000},
+        {"id": 13, "maths": 78, "physics": 80, "english": 88, "computer-science": 85, "geography": 90, "full-name": "William Smith", "father-name": "Smith Sr.", "imageurl": "https://example.com/image13.jpg", "date": 1644012000000},
+        {"id": 14, "maths": 85, "physics": 88, "english": 92, "computer-science": 78, "geography": 82, "full-name": "Madison Thomas", "father-name": "Thomas Sr.", "imageurl": "https://example.com/image14.jpg", "date": 1644012100000},
+        {"id": 15, "maths": 78, "physics": 82, "english": 90, "computer-science": 85, "geography": 88, "full-name": "Aiden Miller", "father-name": "Miller Sr.", "imageurl": "https://example.com/image15.jpg", "date": 1644012200000},
+        {"id": 16, "maths": 80, "physics": 75, "english": 85, "computer-science": 92, "geography": 78, "full-name": "Ava Brown", "father-name": "Brown Sr.", "imageurl": "https://example.com/image16.jpg", "date": 1644012300000},
+        {"id": 17, "maths": 92, "physics": 80, "english": 78, "computer-science": 85, "geography": 88, "full-name": "Logan Wilson", "father-name": "Wilson Sr.", "imageurl": "https://example.com/image17.jpg", "date": 1644012400000},
+        {"id": 18, "maths": 85, "physics": 78, "english": 80, "computer-science": 88, "geography": 92, "full-name": "Chloe Davis", "father-name": "Davis Sr.", "imageurl": "https://example.com/image18.jpg", "date": 1644012500000},
+        {"id": 19, "maths": 78, "physics": 90, "english": 85, "computer-science": 78, "geography": 92, "full-name": "Carter Brown", "father-name": "Brown Sr.", "imageurl": "https://example.com/image19.jpg","date": 1644012500000},
+        {"id": 20, "maths": 85, "physics": 78, "english": 80, "computer-science": 88, "geography": 92, "full-name": "Sophie Wilson", "father-name": "Wilson Sr.", "imageurl": "https://example.com/image20.jpg", "date": 1644012600000},
+        {"id": 21, "maths": 90, "physics": 92, "english": 85, "computer-science": 78, "geography": 80, "full-name": "Jackson Davis", "father-name": "Davis Sr.", "imageurl": "https://example.com/image21.jpg", "date": 1644012700000},
+        {"id": 22, "maths": 78, "physics": 80, "english": 88, "computer-science": 85, "geography": 90, "full-name": "Hannah Smith", "father-name": "Smith Sr.", "imageurl": "https://example.com/image22.jpg", "date": 1644012800000},
+        {"id": 23, "maths": 85, "physics": 88, "english": 92, "computer-science": 78, "geography": 82, "full-name": "Benjamin Thomas", "father-name": "Thomas Sr.", "imageurl": "https://example.com/image23.jpg", "date": 1644012900000},
+        {"id": 24, "maths": 78, "physics": 82, "english": 90, "computer-science": 85, "geography": 88, "full-name": "Mia Miller", "father-name": "Miller Sr.", "imageurl": "https://example.com/image24.jpg", "date": 1644013000000},
+        {"id": 25, "maths": 80, "physics": 75, "english": 85, "computer-science": 92, "geography": 78, "full-name": "Elijah Brown", "father-name": "Brown Sr.", "imageurl": "https://example.com/image25.jpg", "date": 1644013100000},
+        {"id": 26, "maths": 92, "physics": 80, "english": 78, "computer-science": 85, "geography": 88, "full-name": "Grace Wilson", "father-name": "Wilson Sr.", "imageurl": "https://example.com/image26.jpg", "date": 1644013200000},
+        {"id": 27, "maths": 85, "physics": 78, "english": 80, "computer-science": 88, "geography": 92, "full-name": "Liam Davis", "father-name": "Davis Sr.", "imageurl": "https://example.com/image27.jpg", "date": 1644013300000},
+        {"id": 28, "maths": 78, "physics": 90, "english": 85, "computer-science": 78, "geography": 92, "full-name": "Lily Brown", "father-name": "Brown Sr.", "imageurl": "https://example.com/image28.jpg", "date": 1644013400000},
+        {"id": 29, "maths": 85, "physics": 78, "english": 92, "computer-science": 80, "geography": 88, "full-name": "Noah Wilson", "father-name": "Wilson Sr.", "imageurl": "https://example.com/image29.jpg", "date": 1644013500000},
+        {"id": 30, "maths": 78, "physics": 85, "english": 92, "computer-science": 80, "geography": 88, "full-name": "Zoe Smith", "father-name": "Smith Sr.", "imageurl": "https://example.com/image30.jpg", "date": 1644013600000}
+      ]
+  
+    }
+
+
+  
