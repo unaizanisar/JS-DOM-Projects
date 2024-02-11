@@ -1,0 +1,158 @@
+.cover {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.blurry-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/coverpu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: blur(10px); /* Adjust the blur value as needed */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    backdrop-filter: blur(10px); /* Standard property */
+    z-index: -1; /* Place the blurry background behind other content */
+}
+
+nav {
+    position: relative; /* Ensure the logo is positioned relative to the cover */
+    z-index: 1; /* Place the logo above the blurry background */
+}
+
+.logo {
+    display: block;
+    margin: 20px; /* Adjust the margin as needed */
+}
+h1, h2, p{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust shadow values as needed */
+    font-weight: bold;
+    text-align: center;
+    margin: 0; /* Remove default margin to ensure centered alignment */
+}
+
+/* Responsive Font Size */
+@media screen and (max-width: 768px) {
+    h1, h2, p {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1, h2, p{
+        font-size: 1.2em; /* Adjust font size for even smaller screens */
+    }
+}
+
+@media only screen and (min-resolution: 192dpi) {
+    .cover {
+        background-image: url('high-res-cover.jpg');
+    }
+}
+
+.button {
+    display: block;
+    width: 200px; /* Adjust width as needed */
+    margin: 20px auto; /* Centers the button horizontally and adds some space between the button and the heading */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue; /* Background color of the button */
+    color: white; /* Text color of the button */
+    border-radius: 20px; /* Creates rounded corners */
+}
+
+.button:hover {
+    background-color: white; /* Background color of the button on hover */
+    color: black;
+}
+
+
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 555px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    z-index: 1; /* Ensures it's on top of other content */
+}
+
+
+nav {
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+nav ul li a:hover {
+    color: #ff4321;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+.container input[type="text"] {
+    width: calc(100% - 40px); /* Adjusted width to accommodate padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
