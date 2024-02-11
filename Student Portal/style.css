@@ -108,7 +108,7 @@ h1, h2, p{
 
 /* Set placeholder color */
 .container input[type="text"]::placeholder {
-    color: #888; /* Adjust placeholder color as needed */
+    color: black; /* Adjust placeholder color as needed */
 }
 
 .container button {
